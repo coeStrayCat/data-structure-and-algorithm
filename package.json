@@ -1,0 +1,23 @@
+{
+  "name": "dsa-typescript",
+  "version": "1.0.0",
+  "description": "Data Structures & Algorithms study guide in TypeScript",
+  "scripts": {
+    "arrays": "ts-node src/01-arrays/arrays.ts",
+    "linked-list": "ts-node src/02-linked-list/linked-list.ts",
+    "stack-queue": "ts-node src/03-stack-queue/stack-queue.ts",
+    "hash-table": "ts-node src/04-hash-table/hash-table.ts",
+    "trees": "ts-node src/05-trees/trees.ts",
+    "graphs": "ts-node src/06-graphs/graphs.ts",
+    "sorting": "ts-node src/07-sorting/sorting.ts",
+    "searching": "ts-node src/08-searching/searching.ts",
+    "dp": "ts-node src/09-dynamic-programming/dp.ts",
+    "run-all": "ts-node src/run-all.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
